@@ -5,6 +5,8 @@ containers: {
 	image: "ghcr.io/nlmatics/nlm-ingestor:latest"
         // Run the container with port mapping
         ports: publish: ["443:5001/http"]
+	memory: 2Gi
+	scale: 3
         // Set environment variables
     }
 }
