@@ -1,3 +1,7 @@
+# Running
+
+acorn run --debug --update --name nlmingestor -f ./Acornfile --kubeconfig ~/.kube/config
+
 # About
 
 This repo provides the service code for [llmsherpa](https://github.com/nlmatics/llmsherpa) API to connect. 

@@ -1,0 +1,10 @@
+containers: {
+    nlmingestor: {
+        // Build the Docker image using the context dir "." and the "./Dockerfile".
+        //build: "."
+	image: "ghcr.io/nlmatics/nlm-ingestor:latest"
+        // Run the container with port mapping
+        ports: publish: ["443:5001/http"]
+        // Set environment variables
+    }
+}
